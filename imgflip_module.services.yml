@@ -1,0 +1,5 @@
+services:
+  imgflip_module.ImgflipExtension:
+    class: Drupal\imgflip_module\TwigExtension\ImgflipExtension
+    tags:
+      - { name: twig.extension }

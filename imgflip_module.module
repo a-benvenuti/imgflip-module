@@ -1,0 +1,12 @@
+<?php
+
+function imgflip_module_theme($existing, $type, $theme, $path)
+{
+    return [
+        'imgflip_module__template' => [
+            'variables' => [
+                'memes' => NULL,
+            ],
+        ]
+    ];
+}

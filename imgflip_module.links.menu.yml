@@ -1,0 +1,11 @@
+imgflip_module.welcome:
+  title: 'Meme'
+  parent: system.admin_config_system
+  description: 'Display the meme page.'
+  route_name: imgflip_module.welcome
+
+imgflip_module.settings:
+  title: 'Page settings'
+  parent: imgflip_module.welcome
+  description: 'Displays the meme settings page.'
+  route_name: imgflip_module.settings

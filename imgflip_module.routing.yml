@@ -1,0 +1,15 @@
+imgflip_module.welcome:
+  path: '/page-imgflip'
+  defaults:
+    _controller: '\Drupal\imgflip_module\Controller\ImgflipController::imgflip'
+    _title: 'Welcome to, meme module'
+  requirements: 
+    _permission: 'view meme list'
+
+imgflip_module.settings:
+  path: '/admin/config/system/imgflip_module/config'
+  defaults:
+    _form: '\Drupal\imgflip_module\Form\Settings'
+    _title: 'Welcome to settings, meme module'
+  requirements: 
+    _permission: 'administer site configuration'
